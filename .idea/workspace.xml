@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5340bf1-b740-4556-973d-40bf285f222d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/HoleFiller/HoleFiller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/HoleFiller/ImageInput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/HoleFiller/ImageOutput.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/HoleFiller/Pixel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/ConnectivityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/EightConnectivityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/EuclideanWeightFunc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/FourConnectivityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/GrayScaleFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/ImageFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/WeightFunc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cmdLineUtil/cmdLineUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cmdLineUtil/cmdLineUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.cmdLineUtil">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.cmdLineUtil" />
       <module name="HoleFilling" />
@@ -52,6 +62,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="cmdLineUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.cmdLineUtil.cmdLineUtil" />
+      <module name="HoleFilling" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.cmdLineUtil.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.cmdLineUtil" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.cmdLineUtil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642198257234</updated>
-      <workItem from="1642198260538" duration="11531000" />
+      <workItem from="1642198260538" duration="11900000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1642281567747</created>

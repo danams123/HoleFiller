@@ -1,20 +1,15 @@
-package cmdLineUtil;
+package main.cmdLineUtil;
 
-import ImageHandler.HoleFiller.HoleFiller;
-import ImageHandler.HoleFiller.ImageInput;
-import ImageHandler.HoleFiller.ImageOutput;
-import ImageHandler.HoleFiller.Pixel;
-import ImageHandler.ImageFuncs.*;
+import main.ImageHandler.HoleFiller.HoleFiller;
+import main.ImageHandler.HoleFiller.ImageInput;
+import main.ImageHandler.HoleFiller.ImageOutput;
+import main.ImageHandler.HoleFiller.Pixel;
+import main.ImageHandler.ImageFuncs.*;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-
-//enum ConnectivityType {
-//    FOUR,
-//    EIGHT
-//}//???
 
 public class cmdLineUtil {
 

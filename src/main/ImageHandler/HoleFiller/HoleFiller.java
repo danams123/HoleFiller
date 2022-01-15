@@ -1,7 +1,7 @@
-package ImageHandler.HoleFiller;
+package main.ImageHandler.HoleFiller;
 
-import ImageHandler.ImageFuncs.ConnectivityType;
-import ImageHandler.ImageFuncs.WeightFunc;
+import main.ImageHandler.ImageFuncs.ConnectivityType;
+import main.ImageHandler.ImageFuncs.WeightFunc;
 
 import java.util.HashSet;
 import java.util.Set;

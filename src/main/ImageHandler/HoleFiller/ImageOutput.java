@@ -1,4 +1,4 @@
-package ImageHandler.HoleFiller;
+package main.ImageHandler.HoleFiller;
 
 import java.awt.image.BufferedImage;
 

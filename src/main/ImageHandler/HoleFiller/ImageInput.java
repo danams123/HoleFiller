@@ -1,6 +1,6 @@
-package ImageHandler.HoleFiller;
+package main.ImageHandler.HoleFiller;
 
-import ImageHandler.ImageFuncs.ImageFormat;
+import main.ImageHandler.ImageFuncs.ImageFormat;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;

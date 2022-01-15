@@ -1,6 +1,6 @@
-package ImageHandler.ImageFuncs;
+package main.ImageHandler.ImageFuncs;
 
-import ImageHandler.HoleFiller.Pixel;
+import main.ImageHandler.HoleFiller.Pixel;
 
 import java.util.Set;
 
