@@ -1,17 +1,13 @@
 package main.ImageHandler.ImageFuncs;
 
-import main.ImageHandler.HoleFiller.Pixel;
-
-import java.util.Set;
-
-public class EightConnectivityType implements ConnectivityType {
+public class EightConnectivityType extends ConnectivityType {
 
     public EightConnectivityType(){
 
     }
 
     @Override
-    public Set<Pixel> findBoundary(Pixel[][] pixels, Set<Pixel> hole) {
-        return null;
+    protected int[][] getAdj(int i, int j) {
+        return new int[][]{{i - 1, j - 1}, {i - 1, j},{i - 1, j + 1}, {i + 1, j + 1}, {i + 1, j}, {i + 1, j - 1}, {i, j - 1}, {i, j + 1}};
     }
 }

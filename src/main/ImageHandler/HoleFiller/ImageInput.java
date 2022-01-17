@@ -11,7 +11,7 @@ public class ImageInput {
     private Set<Pixel> hole;
 
     public ImageInput(){
-        hole = new HashSet<Pixel>();
+        hole = new HashSet<>();
     }
 
     public Pixel[][] setImage(BufferedImage image, BufferedImage mask, ImageFormat f){
@@ -20,13 +20,12 @@ public class ImageInput {
         Pixel[][] pixels = new Pixel[height][width];
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
-                Color c = new Color(mask.getRGB(i, j));
-                if(f.isHole(c)){
-                    pixels[i][j] = new Pixel(i, j, -1);
+                if(f.isHole(new Color(mask.getRGB(i, j)))){
+                    pixels[i][j] = new Pixel(i, j, f.getHoleVal());
                     hole.add(pixels[i][j]);
                 }
                 else{
-                    pixels[i][j] = new Pixel(i, j, f.format(c));
+                    pixels[i][j] = new Pixel(i, j, f.format(new Color(image.getRGB(i, j))));
                 }
             }
         }

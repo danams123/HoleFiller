@@ -1,20 +1,15 @@
 package main.ImageHandler.ImageFuncs;
 
-import main.ImageHandler.HoleFiller.Pixel;
-
-import java.util.Set;
-
-public class FourConnectivityType implements ConnectivityType {
+public class FourConnectivityType extends ConnectivityType {
 
     public FourConnectivityType() {
 
     }
 
     @Override
-    public Set<Pixel> findBoundary(Pixel[][] pixels, Set<Pixel> hole) {
-        for(Pixel p : hole){
-
-        }
-        return null;
+    protected int[][] getAdj(int i, int j) {
+        return new int[][]{{i - 1, j}, {i + 1, j}, {i, j - 1}, {i, j + 1}};
     }
+
+
 }

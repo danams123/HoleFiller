@@ -5,6 +5,6 @@ import main.ImageHandler.HoleFiller.Pixel;
 import java.util.Set;
 
 public interface WeightFunc {
-    int calcWeight(Set<Pixel> boundary, Pixel p);
+    float calcVal(Set<Pixel> boundary, Pixel u);
 }
 

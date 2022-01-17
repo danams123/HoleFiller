@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5340bf1-b740-4556-973d-40bf285f222d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/HoleFiller/HoleFiller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/HoleFiller/ImageInput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/HoleFiller/ImageOutput.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/HoleFiller/Pixel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/ConnectivityType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/EightConnectivityType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/EuclideanWeightFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/FourConnectivityType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/GrayScaleFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/ImageFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ImageHandler/ImageFuncs/WeightFunc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cmdLineUtil/cmdLineUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cmdLineUtil/cmdLineUtil.java" afterDir="false" />
+    <list default="true" id="b5340bf1-b740-4556-973d-40bf285f222d" name="Default Changelist" comment="finished and tests">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/HoleFillerTests/HoleFillerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/HoleFillerTests/ImageInputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/HoleFillerTests/ImageOutputTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ImageFuncsTests/ConnectivityTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ImageFuncsTests/EightConnectivityTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ImageFuncsTests/EuclideanWeightFuncTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ImageFuncsTests/FourConnectivityTypeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/ImageFuncsTests/GrayScaleFormatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HoleFilling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HoleFilling.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/HoleFiller/HoleFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/HoleFiller/HoleFiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/HoleFiller/ImageInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/HoleFiller/ImageInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/HoleFiller/ImageOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/HoleFiller/ImageOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/HoleFiller/Pixel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/HoleFiller/Pixel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/ConnectivityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/ConnectivityType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/EightConnectivityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/EightConnectivityType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/EuclideanWeightFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/EuclideanWeightFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/FourConnectivityType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/FourConnectivityType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/GrayScaleFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/GrayScaleFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/ImageFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/ImageFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/WeightFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/WeightFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/cmdLineUtil/cmdLineUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/cmdLineUtil/cmdLineUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +48,7 @@
       <list>
         <option value="Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,9 +58,25 @@
   <component name="ProjectId" id="23htgYFEThypzMI82Lc8tvGgcDb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="tests.ImageFuncsTests" />
+      <recent name="tests.HoleFillerTests" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -62,9 +101,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cmdLineUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="cmdLineUtil" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.cmdLineUtil.cmdLineUtil" />
       <module name="HoleFilling" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;Lenna.png&quot; &quot;mask.png&quot; 3 0.01 4" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.cmdLineUtil.*" />
@@ -76,14 +116,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.cmdLineUtil" />
+      <item itemvalue="Application.Main" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.cmdLineUtil" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -95,7 +130,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642198257234</updated>
-      <workItem from="1642198260538" duration="11900000" />
+      <workItem from="1642198260538" duration="24274000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1642281567747</created>
@@ -123,6 +158,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="finished and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished and tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/ImageHandler/ImageFuncs/ConnectivityType.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

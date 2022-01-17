@@ -7,4 +7,5 @@ import java.awt.*;
 public interface ImageFormat {
     float format(Color c);
     boolean isHole(Color c);
+    float getHoleVal();
 }

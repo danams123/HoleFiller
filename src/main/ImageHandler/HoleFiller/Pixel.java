@@ -2,11 +2,11 @@ package main.ImageHandler.HoleFiller;
 
 
 public class Pixel {
-    private int i;
-    private int j;
+    private final int i;
+    private final int j;
     private float val;
 
-    public Pixel(int i, int j, float val){
+    Pixel(int i, int j, float val){
         this.i = i;
         this.j = j;
         this.val = val;
@@ -24,7 +24,7 @@ public class Pixel {
         return this.val;
     }
 
-    public void setVal(float val) {
+    void setVal(float val) {
         this.val = val;
     }
 }

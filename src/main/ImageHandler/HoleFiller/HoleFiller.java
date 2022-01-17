@@ -2,8 +2,6 @@ package main.ImageHandler.HoleFiller;
 
 import main.ImageHandler.ImageFuncs.ConnectivityType;
 import main.ImageHandler.ImageFuncs.WeightFunc;
-
-import java.util.HashSet;
 import java.util.Set;
 
 public class HoleFiller {
@@ -20,7 +18,7 @@ public class HoleFiller {
     public Pixel[][] holeFil(WeightFunc w, ConnectivityType con){
         setBoundary(con);
         for(Pixel p : this.hole){
-            p.setVal(w.calcWeight(this.boundary, p));
+            this.pixels[p.getI()][p.getJ()].setVal(w.calcVal(this.boundary, p));
         }
         return this.pixels;
     }

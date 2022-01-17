@@ -1,10 +1,9 @@
 package main.ImageHandler.ImageFuncs;
-
-import main.ImageHandler.HoleFiller.Pixel;
-
 import java.awt.*;
 
 public class GrayScaleFormat implements ImageFormat {
+
+    private final float holeVal = -1;
 
     public GrayScaleFormat(){
 
@@ -12,11 +11,17 @@ public class GrayScaleFormat implements ImageFormat {
 
     @Override
     public float format(Color c) {
-        return ((c.getBlue() + c.getGreen() + c.getRed()) / 3) / 255;
+        float rgb = (float)(c.getBlue() + c.getGreen() + c.getRed()) / 3;
+        return rgb / 255;
     }
 
     @Override
     public boolean isHole(Color c) {
         return this.format(c) < 0.5;
+    }
+
+    @Override
+    public float getHoleVal() {
+        return this.holeVal;
     }
 }
